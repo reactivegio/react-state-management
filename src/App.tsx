@@ -12,19 +12,19 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="./">
           <Chooser />
         </Route>
-        <Route exact path="/drilling">
+        <Route exact path="./drilling">
           <DrillingTodo />
         </Route>
-        <Route exact path="/context">
+        <Route exact path="./context">
           <ContextTodo />
         </Route>
-        <Route exact path="/redux">
+        <Route exact path="./redux">
           <ReduxTodo />
         </Route>
-        <Route exact path="/recoil">
+        <Route exact path="./recoil">
           <RecoilTodo />
         </Route>
         <Route path="*">
