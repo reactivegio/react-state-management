@@ -1,0 +1,60 @@
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  cursor: pointer;
+  transition: 0.25s;
+}
+button.purple {
+  box-shadow: 0.3em 0.3em 0 0 #a972cb, inset 0.3em 0.3em 0 0 #a972cb;
+  color: #a972cb;
+}
+button.purple:hover {
+  box-shadow: 0 0 0 0 #a972cb, inset 6em 3.5em 0 0 #a972cb;
+}
+
+button.pink {
+  box-shadow: 0.3em 0.3em 0 0 #ef6eae, inset 0.3em 0.3em 0 0 #ef6eae;
+  color: #ef6eae;
+}
+button.pink:hover {
+  box-shadow: 0 0 0 0 #ef6eae, inset 6em 3.5em 0 0 #ef6eae;
+}
+
+button.red {
+  box-shadow: 0.3em 0.3em 0 0 #fc7275, inset 0.3em 0.3em 0 0 #fc7275;
+  color: #fc7275;
+}
+button.red:hover {
+  box-shadow: 0 0 0 0 #fc7275, inset 6em 3.5em 0 0 #fc7275;
+}
+
+button.orange {
+  box-shadow: 0.3em 0.3em 0 0 #ffa260, inset 0.3em 0.3em 0 0 #ffa260;
+  color: #ffa260;
+}
+button.orange:hover {
+  box-shadow: 0 0 0 0 #ffa260, inset 6em 3.5em 0 0 #ffa260;
+}
+button.yellow {
+  box-shadow: 0.3em 0.3em 0 0 #e4cb58, inset 0.3em 0.3em 0 0 #e4cb58;
+  color: #e4cb58;
+}
+button.yellow:hover {
+  box-shadow: 0 0 0 0 #e4cb58, inset 6em 3.5em 0 0 #e4cb58;
+}
+
+button.blue {
+  box-shadow: 0.3em 0.3em 0 0 #1973bc, inset 0.3em 0.3em 0 0 #1973bc;
+  color: #1973bc;
+}
+button.blue:hover {
+  box-shadow: 0 0 0 0 #1973bc, inset 6em 3.5em 0 0 #1973bc;
+}
+
+button:hover {
+  color: #fff;
+}

@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Chooser from "./components/chooser/index";
+import ContextTodo from "./components/context/todo/index";
+import DrillingTodo from "./components/drilling/todo/index";
+import RecoilTodo from "./components/recoil/todo/index";
+import ReduxTodo from "./components/redux/todo/index";
 import './App.css';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Chooser />
+        </Route>
+        <Route exact path="/drilling">
+          <DrillingTodo />
+        </Route>
+        <Route exact path="/context">
+          <ContextTodo />
+        </Route>
+        <Route exact path="/redux">
+          <ReduxTodo />
+        </Route>
+        <Route exact path="/recoil">
+          <RecoilTodo />
+        </Route>
+        <Route path="*">
+          <div>404</div>
+        </Route>
+      </Switch>
+    </Router>
+
   );
 }
 
