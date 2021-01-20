@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 It develop a simple todo manager with different react state management implementation with: 
 - props drilling technique
 - Context of functional components
-- Redux 
+- Redux using reduxjs toolkit 
 - Recoil
 
 ## DEMO 
