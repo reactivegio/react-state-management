@@ -1,8 +1,14 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It develop a simple todo manager with different react state management implementation with: 
+- props drilling technique
+- Context of functional components
+- Redux using reduxjs toolkit 
+- Recoil
 
 ## DEMO 
+https://reactivegio.github.io/react-state-management/
 
 
 ## Available Scripts
