@@ -13,18 +13,25 @@
   height: 100%;
   overflow-y: auto;
   border-radius: 20px;
+  margin: 0 auto;
+}
+
+.add-section {
+  padding: 10px 0;
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
 }
 @media screen and (max-width: 600px) {
   .content {
     width: calc(100% - 90px);
     margin: 20px;
   }
+  .add-section {
+    width: calc(100% - 90px);
+  }
 }
-.add-section {
-  padding: 10px 0;
-  width: 100%;
-  text-align: left;
-}
+
 .input-add {
   font-size: 14px;
   margin: 0 5px;
