@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Chooser from "./components/chooser/index";
+
+import AkitaTodo from "./components/akita/todo/index";
 import ContextTodo from "./components/context/todo/index";
 import DrillingTodo from "./components/drilling/todo/index";
 import RecoilTodo from "./components/recoil/todo/index";
@@ -14,6 +16,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Chooser />
+        </Route>
+        <Route exact path="/akita">
+          <AkitaTodo />
         </Route>
         <Route exact path="/drilling">
           <DrillingTodo />

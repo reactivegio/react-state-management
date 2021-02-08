@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 
-const List = () => {
+const Add = () => {
 
     const [newTodo, setNewTodo] = useState("");
     const dispatch = useDispatch();
@@ -14,4 +14,4 @@ const List = () => {
     );
 };
 
-export default List;
+export default Add;

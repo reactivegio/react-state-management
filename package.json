@@ -165,6 +165,8 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-jsx": "^7.12.1",
-    "@types/react-router-dom": "^5.1.7"
+    "@datorama/akita": "^6.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "rxjs": "^6.6.3"
   }
 }
